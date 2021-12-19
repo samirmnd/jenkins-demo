@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  sh '/Users/smandal/Desktop/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /Users/smandal/Desktop/blazemeter/blazedemo.jmx -l test.jtl'
+}
